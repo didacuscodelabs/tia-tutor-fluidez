@@ -48,7 +48,7 @@ const App: React.FC = () => {
 
     const initialize = useCallback(async () => {
         try {
-            const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+            const ai = new GoogleGenAI({ apiKey: process.env.VITE_API_KEY as string });
             aiChat.current = ai.chats.create({
                 model: 'gemini-2.5-flash',
                 config: {
