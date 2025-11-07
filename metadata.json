@@ -1,0 +1,7 @@
+{
+  "name": "English Fluency Tutor - Alex",
+  "description": "Practice your spoken English with Alex, an AI-powered tutor who provides instant feedback and corrections to help you improve your fluency.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
